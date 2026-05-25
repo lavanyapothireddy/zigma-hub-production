@@ -1,0 +1,22 @@
+# Environment — NEVER commit secrets
+.env
+*.env.local
+
+# Data directories
+/data/
+
+# Certificates
+/certs/
+*.pem
+*.key
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Logs
+*.log
